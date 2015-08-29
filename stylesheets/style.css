@@ -42,16 +42,46 @@ navigation {
 	font-size: 13px;
 }
 
+#navigation ul:before, #navigation ul:after {
+    background-color: #d0d0d0;
+    content: "";
+    display: inline-block;
+    height: 1px;
+	bottom: .1em;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+navigation ul:before {
+    right: 29px;
+    margin-left: -50%;
+}
+
+navigation ul:after {
+    left: 29px;
+    margin-right: -50%;
+}
+
 navigation li {
 	display: inline-block;
 }
 
-navigation li:hover,navigation li:active {
+navigation li:hover, navigation li:active {
 	background-color: #f6f6f6;
 	color: #484848;
 }
 
- .menu li a {
+navigation a:link, navigation a:visited {
+	display: block;
+	color: inherit;
+	padding: 10px 14px;
+}
+
+navigation a:hover {
+}
+
+.menu li a {
 	background-color: #f6f6f6;
 	border: none;
 	color: #484848;
