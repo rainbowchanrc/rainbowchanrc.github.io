@@ -1,0 +1,25 @@
+/* Styling*/
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: #8e8e8e;
+	min-height: 100%;
+	background-color: #f9f9f9;
+}
+
+header {
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 25px;
+}
+
+wrapper blockquote {
+	border-left: 5px solid #d0d0d0;
+	margin-left: 20px;
+	padding-left: 20px;
+}
