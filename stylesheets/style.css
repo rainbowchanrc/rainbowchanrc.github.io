@@ -1,7 +1,13 @@
-/* Styling*/
+/* General styling*/
 
 html {
 	height: 100%;
+}
+
+header {
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 25px;
 }
 
 body {
@@ -12,11 +18,33 @@ body {
 	background-color: #f9f9f9;
 }
 
-header {
-	text-align: center;
-	padding-top: 52px;
-	padding-bottom: 25px;
+sitename a,
+sitename a:link,
+sitename a:visited {
+	color: #484848;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+	background: url('teal_icons.png') -9999px -9999px no-repeat;
 }
+
+h2 {
+	font-family: 'Alice', sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #484848;
+	padding: .3em 0;
+}
+
+p,
+div.paragraph {
+	padding: .5em 0;
+}
+
+hr.styled-hr {
+	background-color: #d0d0d0;
+}
+
 
 /* wrapper */
 
