@@ -57,6 +57,11 @@ wrapper blockquote {
 	padding-left: 20px;
 }
 
+content-wrapper {
+	width: 960px;
+	margin: auto;
+}
+
 /* navigation*/
 
 navigation {
@@ -118,4 +123,66 @@ navigation a:hover {
 .wsite-menu li a:hover {
 	background-color: #e8e8e8;
 	color: #484848;
+}
+
+/* Banner
+--------------------------------------------------------------------------------*/
+
+.banner-wrap {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+
+#banner {
+	width: 550px;
+	height: 100%;
+	margin: auto;
+	display: table;
+}
+
+#banner-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.banner-wrap a {
+	color: #8dc7d3;
+}
+
+.banner-wrap a:hover {
+	text-decoration: underline;
+}
+
+.banner-wrap .button-wrap div {
+	text-align: center !important;
+}
+
+.banner-wrap .wsite-button-inner {
+	font-family: 'Open sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#banner h2 {
+	font-size: 55px;
+	color: white;
+	font-weight: bold;
+}
+
+#banner p {
+	font-size: 20px;
+	padding-top: 36px;
+	padding-bottom: 45px;
+	color: white;
+}
+
+
+/*Short header*/
+.short-header .banner-wrap {
+	background-image: url(short_header.jpg);
+	height: 302px;
+	margin-bottom: 20px;
 }
