@@ -136,6 +136,9 @@ navigation a:hover {
 	width: 100%;
 }
 
+
+.wsite-background {background-image: url('https://drive.google.com/open?id=0BwgpYtB4pAeyQWUzV1Z6c2NfSEU') !important;background-repeat: no-repeat !important;background-position: 50% 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
+
 #banner {
 	width: 550px;
 	height: 100%;
