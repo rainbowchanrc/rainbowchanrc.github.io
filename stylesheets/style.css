@@ -202,6 +202,8 @@ hr.styled-hr {
 	font-weight: bold;
 }
 
+#banner div.paragraph { font-size: 20px; padding-top: 36px; padding-bottom: 45px; color: white; }
+
 #banner p {
 	font-size: 20px;
 	padding-top: 36px;
