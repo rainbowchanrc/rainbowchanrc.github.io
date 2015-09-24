@@ -1,5 +1,11 @@
 /* General styling*/
 
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
+ a img { border: 0; }
+ a { text-decoration: none; }
+ 
+
 html {
 	height: 100%;
 }
@@ -17,6 +23,9 @@ body {
 	min-height: 100%;
 	background-color: #f9f9f9;
 }
+
+ .landing-page { background-color: #ffffff; }
+
 
 #sitename a,
 #sitename a:link,
