@@ -147,6 +147,15 @@ hr.styled-hr {
  .wsite-button-normal { background-color: #484848; }
  .wsite-button-normal:hover { background-color: #616161; }
  .wsite-button-normal:active { background-color: #303030; }
+ 
+ .galleryCaptionHover .galleryCaptionHolder { height: 100%; opacity: 0; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; -webkit-backface-visibility: hidden; }
+ .partialImageGalleryCaption.galleryCaptionHolder { height: auto; }
+ .galleryCaptionHover.galleryImageHolder:hover .galleryCaptionHolder { opacity: 1; }
+ .galleryCaptionHolderInner { display: table; height: 100%; }
+ .galleryCaptionInnerTextHolder { display: table-cell; vertical-align: middle; }
+ 
+ #content-wrapper #content .galleryImageBorder { border-color: #d0d0d0; }
+ #content-wrapper #content .wsite-image-border-hairline a img, #content-wrapper #content .wsite-image-border-thin a img, #content-wrapper #content .wsite-image-border-medium a img, #content-wrapper #content .wsite-image-border-thick a img { border-color: #d0d0d0; }
 
 /* Banner
 --------------------------------------------------------------------------------*/
