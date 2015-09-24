@@ -148,6 +148,8 @@ hr.styled-hr {
  .wsite-button-normal:hover { background-color: #616161; }
  .wsite-button-normal:active { background-color: #303030; }
 
+ 
+ 
 /* Banner
 --------------------------------------------------------------------------------*/
 
@@ -159,8 +161,8 @@ hr.styled-hr {
 	width: 100%;
 }
 
-
-.wsite-background {background-image: url('//cdn1.editmysite.com/uploads/4/2/9/8/42984565/background-images/84167004.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
+.landing-page .banner-wrap { background-image: url(https://cloud.githubusercontent.com/assets/9140228/10068955/587457fc-62db-11e5-9a30-704fce02aa71.jpg); height: 482px; width:750px; margin: auto; width: 55%; margin-bottom: 20px; }
+.wsite-background {background-image: url('https://cloud.githubusercontent.com/assets/9140228/10068955/587457fc-62db-11e5-9a30-704fce02aa71.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 0 !important;background-size: auto !important;background-color: transparent !important;background: inherit;}
 
 #banner {
 	width: 550px;
