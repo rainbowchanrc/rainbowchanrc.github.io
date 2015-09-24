@@ -102,12 +102,12 @@ content-wrapper {
 	display: inline-block;
 }
 
-#navigation li:hover, navigation li:active {
+#navigation li:hover, #navigation li:active {
 	background-color: #f6f6f6;
 	color: #484848;
 }
 
-#navigation a:link, navigation a:visited {
+#navigation a:link, #navigation a:visited {
 	display: block;
 	color: inherit;
 	padding: 10px 14px;
