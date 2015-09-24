@@ -176,6 +176,8 @@ hr.styled-hr {
 	vertical-align: middle;
 }
 
+.banner-wrap { text-align: center; background-repeat: no-repeat; background-size: cover; background-position: center center; width: 100%; }
+
 .banner-wrap a {
 	color: #8dc7d3;
 }
@@ -206,6 +208,7 @@ hr.styled-hr {
 	padding-bottom: 45px;
 	color: white;
 }
+
 
 
 /*Short header*/
