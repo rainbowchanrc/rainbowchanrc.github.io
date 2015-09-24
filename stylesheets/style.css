@@ -18,9 +18,9 @@ body {
 	background-color: #f9f9f9;
 }
 
-sitename a,
-sitename a:link,
-sitename a:visited {
+#sitename a,
+#sitename a:link,
+#sitename a:visited {
 	color: #484848;
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
