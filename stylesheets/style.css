@@ -147,7 +147,7 @@ hr.styled-hr {
  .wsite-button-normal { background-color: #484848; }
  .wsite-button-normal:hover { background-color: #616161; }
  .wsite-button-normal:active { background-color: #303030; }
-
+ .wsite-button-large{font-size:18px !important;background-color:#5199a8; no-repeat 100% -130px}.wsite-button-large .wsite-button-inner{height:42px;line-height:42px;padding:0 10px 0 25px;background-color:#5199a8; no-repeat 0 -1px}.wsite-button-large:hover{background-position:100% -173px}.wsite-button-large:hover .wsite-button-inner{background-position:0 -44px}.wsite-button-large:active{background-position:100% -216px}.wsite-button-large:active .wsite-button-inner{background-position:0 -87px}.wsite-button-large.wsite-button-highlight,.wsite-button-large.wsite-button-highlight 
  
  
 /* Banner
